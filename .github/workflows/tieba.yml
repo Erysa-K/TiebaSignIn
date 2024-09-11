@@ -4,6 +4,7 @@ name: Start
 
 on:
    #workflow_dispatch:
+   push:
    schedule:
        - cron: '* * * * *'
        - cron: '10 0 * * *'
